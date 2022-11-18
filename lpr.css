@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('C:/Users/Nitro5/Desktop/Dev Web/project/pr1/images2/back.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('images2/back.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -62,16 +62,16 @@ body{
     transform: translateY(-10px);
 }
 .card1{
-    background-image: url('C:/Users/Nitro5/Desktop/Dev Web/project/pr1/images2/pic-1.jpg ');
+    background-image: url('images2/pic-1.jpg ');
 }
 .card2{
-    background-image: url('C:/Users/Nitro5/Desktop/Dev Web/project/pr1/images2/pic3.PNG ');
+    background-image: url('images2/pic3.PNG ');
 }
 .card3{
-    background-image: url('C:/Users/Nitro5/Desktop/Dev Web/project/pr1/images2/pic3.PNG ');
+    background-image: url('images2/pic3.PNG ');
 }
 .card4{
-    background-image: url('C:/Users/Nitro5/Desktop/Dev Web/project/pr1/images2/pic-1.jpg ');
+    background-image: url('images2/pic-1.jpg ');
 }
 .text{
     margin-left: 20px;
