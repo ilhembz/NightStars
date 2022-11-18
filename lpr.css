@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('C:/Users/Nitro5/Desktop/Dev Web/project/pr1/images2/back.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.header{
+  /*  background-color: rgba(226, 189, 230, 0.3);*/
+    overflow: hidden;
+    margin: 10px 15px;
+    padding: 10px;
+}
+.header a{
+    margin: 5px 25px;/*this is 1/2 the padding of the header*/
+    text-decoration: none;
+    color: white;
+    padding: 5px 28px;
+    float: right;
+    /*display: inline-block;*/ /*we cant do this display with float*/
+    border: 2px solid rgba(226, 189, 230, 1);
+    border-radius: 20px;
+    font-weight: bold;
+}
+.row{
+    color: white;
+    align-items: center;
+    display: flex;
+    height: 88%;
+    margin: 60px 15px;
+
+}
+.col{
+    flex-basis: 50%;
+}
+.card{
+    border-radius: 20px;
+    border: 2px solid transparent;
+    background-color: rgba(226, 189, 230, 0.3);
+    height: 250px;
+    width: 200px;
+    font-size: 15px;
+    text-align: justify;
+    padding: 15px 25px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.coll{
+    margin-left: 292px;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card1{
+    background-image: url('C:/Users/Nitro5/Desktop/Dev Web/project/pr1/images2/pic-1.jpg ');
+}
+.card2{
+    background-image: url('C:/Users/Nitro5/Desktop/Dev Web/project/pr1/images2/pic3.PNG ');
+}
+.card3{
+    background-image: url('C:/Users/Nitro5/Desktop/Dev Web/project/pr1/images2/pic3.PNG ');
+}
+.card4{
+    background-image: url('C:/Users/Nitro5/Desktop/Dev Web/project/pr1/images2/pic-1.jpg ');
+}
+.text{
+    margin-left: 20px;
+}
+h1{
+    font-size: 50px;
+    line-height: 0.01;
+}
+p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 20px;
+    text-indent: 15px;
+}
+button{
+    border: 2px solid transparent;
+    background-color: rgba(226, 189, 230, 1);
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+h5{
+    line-height: 0.01;
+}
+a:hover{
+    background-color: rgba(226, 189, 230, 1);
+    border-radius: 20px;
+}
+.logo{
+  width: 50px;
+  float: left;
+  margin-top: -5px ;
+}
